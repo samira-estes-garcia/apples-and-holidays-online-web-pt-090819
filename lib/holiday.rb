@@ -62,7 +62,7 @@ def all_supplies_in_holidays(holiday_hash)
   # etc.
   
   holiday_hash.each do |names, data|
-    data.each do |attribute.capitalize, value.flatten|
+    data.each do |attribute, value|
       puts "#{attribute}: #{value}"
     end
   end
